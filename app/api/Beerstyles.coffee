@@ -8,10 +8,12 @@ mbit.factory('mbit/api/Beerstyles', [
 	'mbit/api/Request'
 	(Request) ->
 
+		endpoint = 'json/beerStyles'
+
 		# @param [Integer] id (optional) If you want to get a single one
 		# @return [Promise] promise
 		get = (id = '') ->
-			return Request.get "/json/beerStyles/#{id}"
+			return Request.get "/#{endpoint}/#{id}"
 
 		return { get }
 ])

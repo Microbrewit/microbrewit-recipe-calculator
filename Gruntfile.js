@@ -11,7 +11,7 @@ var config = {
 			"tmp/js/**/*.js"
 		],
 		source: "app",
-		destination: "../microbrew-it-middleware/public/recipe/build",
+		destination: "build",
 		tmp: 'tmp'
 	}
 };

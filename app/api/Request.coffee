@@ -1,19 +1,12 @@
-mbit = angular.module('Microbrewit')
-
 # mbit/api/Request
 #
 # REST ($http) wrapper
-#
-# Contains one factory with three methods:
-# - Request.get
-# - Request.post
-# - Request.put
 #
 # Depends on: ['$http', 'ApiUrl', 'ClientUrl']
 #
 # @author Torstein Thune
 # @copyright 2016 Microbrew.it
-mbit.factory('mbit/api/Request', [
+angular.module('Microbrewit').factory('mbit/api/Request', [
 	'$http'
 	($http) ->
 

@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dependencies": "npm install && bower install && webpack"
-    "build": "webpack && grunt"
+    "dependencies": "npm install && bower install && webpack",
+    "build": "webpack && grunt build"
   },
   "author": "Torstein Thune <torstein@gmail.com> (http://thune.io/)",
   "license": "MIT",
